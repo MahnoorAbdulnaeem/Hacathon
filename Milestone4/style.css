@@ -1,0 +1,92 @@
+body {
+  background-color: whitesmoke;
+   }
+   
+   h1 {
+     text-align: center;
+     color:  orangered;
+   }
+   
+   form {
+     max-width: 600px;
+     margin: auto;
+     background-color: black;
+     border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0 ,0 ,0.5);
+     padding: 20px;
+   }
+   
+   fieldset {
+     border: 2px solid  orangered;
+     border-radius:  8px;
+     padding: 20px;
+     margin-bottom: 20px;
+     background-color: black;
+   }
+   
+   legend {
+     font-weight: bold;
+     text-align: left;
+     color: white;
+     
+   }
+   
+   label {
+      display: block; 
+     margin-top: 10px;
+     color:white
+   }
+   
+   input,textarea {
+   
+      width: calc(100% - 1px); 
+     padding: 8px;
+     margin-top: 4px;
+     border: 1px solid black;
+     border-radius: 4px;
+     box-sizing: border-box;
+   }
+   button {
+     display: block;
+     width: 100%;
+     padding:  10px;
+     background-color: white;
+     color: black;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     margin-top: 10px;
+     font-size: 18px;
+     font-family: 'Times New Roman', Times, serif;
+   }
+   
+   button:hover {
+      background-color: orangered;
+   }
+   
+   #resumeOutput {
+     max-width: 600px;
+     margin: auto;
+     padding: 20px;
+     border:  2px solid orangered;
+     border-radius: 8px;
+     background-color: white;
+     box-shadow: orangered
+   
+   }
+   
+   #resumeOutput h2{
+     color: orangered;
+     
+   }
+
+   .profilePicture {
+    display: block;
+    margin: 0 auto;
+   border: 2px solid orangered;
+   box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+   border-radius: 500%;
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+  }
